@@ -8,7 +8,7 @@ import './dist/css/bootstrap.min.css';
 const App = () => {
     return (
       <>
-      <Header />
+      <Header        />
       </>
     );
 }
