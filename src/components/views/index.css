@@ -11449,9 +11449,9 @@
  }
  @font-face {
      font-family: "cartzilla-icons";
-     src: url("./fonts/cartzilla-iconsf3c8.ttf?z88dg8") 
-     format("truetype"), url("./fonts/cartzilla-iconsf3c8.woff?z88dg8")
-      format("woff"), url("./fonts/cartzilla-iconsf3c8.svg?z88dg8#cartzilla-icons") format("svg");
+     src: url("../fonts/cartzilla-iconsf3c8.ttf?z88dg8") 
+     format("truetype"), url("../fonts/cartzilla-iconsf3c8.woff?z88dg8")
+      format("woff"), url("../fonts/cartzilla-iconsf3c8.svg?z88dg8#cartzilla-icons") format("svg");
      font-weight: normal;
      font-style: normal;
      font-display: block;
@@ -16360,9 +16360,8 @@
  /*# sourceMappingURL=theme.min.css.map */
  
  .background-ecommerce{
-    background-image: url('img/hero-bg.jpg');
+    background-image: url('../img/hero-bg.jpg');
     background-size: cover;
     background-position:center!important;
-    padding-top: 10rem !important;
-    padding-bottom: 10rem !important;
+  
  }

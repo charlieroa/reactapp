@@ -1,14 +1,18 @@
 import React from 'react';
 import Header from './Header';
-import './theme.min.css';
-import './dist/css/bootstrap.min.css';
+import Main from './Main';
+import Productos from './Productos';
+import '../components/views/index.css';
+
 
 
 
 const App = () => {
     return (
       <>
-      <Header        />
+      <Header    />
+      <Main   titulo="Bienvenido a CoderHouse"         />
+      <Productos       />
       </>
     );
 }
