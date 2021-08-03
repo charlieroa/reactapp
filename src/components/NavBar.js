@@ -2,10 +2,10 @@ import React from 'react'
 import CartWiget from './CartWiget';
 
 
-const Nav = () => {
+const Header = () => {
     return (
         <>
-
+    
 <header className="navbar navbar-expand-lg navbar-light shadow-sm">
   <div className="container">      
     <a className="navbar-brand d-none d-lg-block order-lg-1" href="#">
@@ -21,8 +21,11 @@ const Nav = () => {
   </div>
 
 </header>
+    
+    
+     
         </>
     )
 }
 
-export default Nav
+export default Header

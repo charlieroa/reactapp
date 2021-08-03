@@ -1,6 +1,7 @@
 import React from 'react'
+import Item from './Item';
 
-const Main = ({titulo}) => {
+const ItemListContainer = ({titulo}) => {
     return (
         <>
   
@@ -15,9 +16,12 @@ const Main = ({titulo}) => {
         </div>
       </div>
     </section>
+    <h2 className="h3 text-center">Listado de productos</h2>
+    <Item />
+   
   
         </>
     )
 }
 
-export default Main
+export default ItemListContainer
