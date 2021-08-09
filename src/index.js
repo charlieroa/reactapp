@@ -3,7 +3,7 @@ import React from "react"
 //tener react dom en el scope
 import ReactDOM from "react-dom"
 
-import App from "./components/App"
+import App from "./App"
 
 //crear un componente
 // const App =() => "hola mundo"
