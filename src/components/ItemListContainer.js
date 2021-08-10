@@ -12,8 +12,7 @@ const ItemListContainer = ({greeting}) => {
 
   const fetchData = async () => {
       const data = await fetch('https://fakestoreapi.com/products')
-      const products = await data.json()
-       console.log(products)
+      const products = await data.json()     
       setproductos(products)
   }
 
