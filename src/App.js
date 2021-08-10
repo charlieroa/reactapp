@@ -21,9 +21,8 @@ const App = () => {
       <header className="navbar navbar-expand-lg navbar-light shadow-sm">
   <div className="container">      
   <Link to="/reactapp" className="navbar-brand d-none d-sm-block me-4 order-lg-1">
-  <img src={logo} width="142" alt="Cartzilla"></img>  
-  </Link>
-  
+    <img src={logo} width="142" alt="Cartzilla"></img>  
+  </Link> 
       <a className="navbar-brand d-lg-none me-2" href="#">
         <img width="74" src="./img/coder.png" alt="Cartzilla"/>
       </a>   
