@@ -1,5 +1,5 @@
 import React from 'react'
-import ItemCount from './ItemCount'
+
 
 const Item = ({producto}) => {
     return ( 
@@ -20,7 +20,7 @@ const Item = ({producto}) => {
               </div>
              
             </div>  
-            <ItemCount />
+            
           </div>
        
          </div>

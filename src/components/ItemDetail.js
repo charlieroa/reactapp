@@ -1,5 +1,6 @@
 import React from 'react'
 import {Link,} from "react-router-dom";
+import ItemCount from "./ItemCount";
 
 
 
@@ -59,7 +60,7 @@ const ItemDetail = ({datos}) => {
                   </div>                             
                 </div>
              
-                
+                <ItemCount />
                
                 </div>
             </div>
